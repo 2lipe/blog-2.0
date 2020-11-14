@@ -2,6 +2,7 @@ import React, { ReactNode } from 'react';
 import { ThemeProvider } from 'styled-components';
 
 import Sidebar from '../Sidebar';
+import Menu from '../Menu';
 
 import GlobalStyles from '../../styles/globalStyles';
 import dark from '../../styles/theme/dark';
@@ -19,6 +20,7 @@ const Layout = ({ children }: Props) => {
         <GlobalStyles />
         <Sidebar />
         <S.LayoutMain>{children}</S.LayoutMain>
+        <Menu />
       </S.LayoutWrapper>
     </ThemeProvider>
   );

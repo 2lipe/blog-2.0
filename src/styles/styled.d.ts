@@ -15,6 +15,8 @@ declare module 'styled-components' {
 
       white: string;
       blackLighter: string;
+      yellowLime: string;
+      yellowLight: string;
     };
   }
 }

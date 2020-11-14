@@ -7,6 +7,8 @@ export const Colors = {
   black: '#000000',
   blackLight: '#111111',
   blackLighter: '#222222',
+  yellowLime: '#d4d400',
+  yellowLight: '#e2e240',
 
   textColor: '#8899A6',
   textColorDark: '#555555',

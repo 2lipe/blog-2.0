@@ -14,5 +14,7 @@ export default {
 
     white: Colors.white,
     blackLighter: Colors.blackLighter,
+    yellowLime: Colors.yellowLime,
+    yellowLight: Colors.yellowLight,
   },
 } as const;
